@@ -1020,19 +1020,19 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="YJK-qm-FVB"/>
                                 </constraints>
-                                <string key="text">This app is to help better the community of Pokemon Unite players. I am making no profit off this app and strictly just trying to help those new to the game.</string>
+                                <string key="text">This app is to help better the community of Pokémon Unite players. I am making no profit off this app and strictly just trying to help those new to the game.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laR-x3-24C">
                                 <rect key="frame" x="15" y="319" width="384" height="142.5"/>
-                                <string key="text">Pokemon, Pokemon Unite, all Pokemon images, and all Pokemon names used in the Unite Guide app are registered trademarks of The Pokemon International, TiMi Studio Group. All rights reserved no copyright infringement is intedned and use of the images are believed to fall under Fair Use. </string>
+                                <string key="text">Pokémon, Pokémon Unite, all Pokémon images, and all Pokémon names used in the Unite Guide app are registered trademarks of The Pokémon International, TiMi Studio Group. All rights reserved no copyright infringement is intedned and use of the images are believed to fall under Fair Use. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sources of information and images includeded RankedBoost and Pokemon Unite Guide Wiki." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDQ-Ah-EwK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sources of information and images includeded RankedBoost and Pokémon Unite Guide Wiki." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDQ-Ah-EwK">
                                 <rect key="frame" x="15" y="244" width="384" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="czi-f2-ERL"/>

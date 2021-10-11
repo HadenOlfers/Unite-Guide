@@ -232,7 +232,6 @@ class FavoritesViewController: UIViewController {
     func champCap() {
         if favoriteChamps.count > 10 {
             favoriteChamps.removeLast()
-            print("Can only have 10 favorites")
         }
     }
     func loadFavs() {

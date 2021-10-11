@@ -105,7 +105,6 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //        tableView.setContentOffset(CGPoint(x: 0, y: 25), animated: false)
         return filteredNames.count
     }
     
