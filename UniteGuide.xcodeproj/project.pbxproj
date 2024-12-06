@@ -13,6 +13,14 @@
 		D54EBA2F2A5F7D28001BB1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54EBA2D2A5F7D28001BB1B8 /* Main.storyboard */; };
 		D54EBA312A5F7D29001BB1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54EBA302A5F7D29001BB1B8 /* Assets.xcassets */; };
 		D54EBA342A5F7D29001BB1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54EBA322A5F7D29001BB1B8 /* LaunchScreen.storyboard */; };
+		D54EBA3E2A5F7E6C001BB1B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D54EBA3D2A5F7E6C001BB1B8 /* GoogleService-Info.plist */; };
+		D54EBA412A5F7EB1001BB1B8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D54EBA402A5F7EB1001BB1B8 /* FirebaseFirestore */; };
+		D54EBA432A5F7EB1001BB1B8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D54EBA422A5F7EB1001BB1B8 /* FirebaseFirestoreSwift */; };
+		D54EBA452A5F80AF001BB1B8 /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54EBA442A5F80AF001BB1B8 /* Champion.swift */; };
+		D59CDD922A62D331001308EC /* ChampionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CDD912A62D331001308EC /* ChampionViewController.swift */; };
+		D5EA0E7E2A6090C3002E41E7 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA0E7D2A6090C3002E41E7 /* LaunchScreenController.swift */; };
+		D5EA0E802A60A164002E41E7 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EA0E7F2A60A164002E41E7 /* CustomTableViewCell.xib */; };
+		D5EA0E822A60A247002E41E7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA0E812A60A247002E41E7 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,12 @@
 		D54EBA302A5F7D29001BB1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D54EBA332A5F7D29001BB1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D54EBA352A5F7D29001BB1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54EBA3D2A5F7E6C001BB1B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D54EBA442A5F80AF001BB1B8 /* Champion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		D59CDD912A62D331001308EC /* ChampionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionViewController.swift; sourceTree = "<group>"; };
+		D5EA0E7D2A6090C3002E41E7 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
+		D5EA0E7F2A60A164002E41E7 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		D5EA0E812A60A247002E41E7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54EBA412A5F7EB1001BB1B8 /* FirebaseFirestore in Frameworks */,
+				D54EBA432A5F7EB1001BB1B8 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +74,17 @@
 			children = (
 				D54EBA272A5F7D28001BB1B8 /* AppDelegate.swift */,
 				D54EBA292A5F7D28001BB1B8 /* SceneDelegate.swift */,
+				D5EA0E7D2A6090C3002E41E7 /* LaunchScreenController.swift */,
 				D54EBA2B2A5F7D28001BB1B8 /* ViewController.swift */,
-				D54EBA2D2A5F7D28001BB1B8 /* Main.storyboard */,
-				D54EBA302A5F7D29001BB1B8 /* Assets.xcassets */,
+				D59CDD912A62D331001308EC /* ChampionViewController.swift */,
+				D54EBA442A5F80AF001BB1B8 /* Champion.swift */,
 				D54EBA322A5F7D29001BB1B8 /* LaunchScreen.storyboard */,
+				D54EBA2D2A5F7D28001BB1B8 /* Main.storyboard */,
+				D5EA0E7F2A60A164002E41E7 /* CustomTableViewCell.xib */,
+				D5EA0E812A60A247002E41E7 /* CustomTableViewCell.swift */,
+				D54EBA302A5F7D29001BB1B8 /* Assets.xcassets */,
 				D54EBA352A5F7D29001BB1B8 /* Info.plist */,
+				D54EBA3D2A5F7E6C001BB1B8 /* GoogleService-Info.plist */,
 			);
 			path = UniteGuide;
 			sourceTree = "<group>";
@@ -83,6 +105,10 @@
 			dependencies = (
 			);
 			name = UniteGuide;
+			packageProductDependencies = (
+				D54EBA402A5F7EB1001BB1B8 /* FirebaseFirestore */,
+				D54EBA422A5F7EB1001BB1B8 /* FirebaseFirestoreSwift */,
+			);
 			productName = UniteGuide;
 			productReference = D54EBA242A5F7D28001BB1B8 /* UniteGuide.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = D54EBA1B2A5F7D28001BB1B8;
+			packageReferences = (
+				D54EBA3F2A5F7EB1001BB1B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D54EBA252A5F7D28001BB1B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54EBA342A5F7D29001BB1B8 /* LaunchScreen.storyboard in Resources */,
+				D54EBA3E2A5F7E6C001BB1B8 /* GoogleService-Info.plist in Resources */,
 				D54EBA312A5F7D29001BB1B8 /* Assets.xcassets in Resources */,
+				D5EA0E802A60A164002E41E7 /* CustomTableViewCell.xib in Resources */,
 				D54EBA2F2A5F7D28001BB1B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59CDD922A62D331001308EC /* ChampionViewController.swift in Sources */,
+				D5EA0E822A60A247002E41E7 /* CustomTableViewCell.swift in Sources */,
+				D54EBA452A5F80AF001BB1B8 /* Champion.swift in Sources */,
 				D54EBA2C2A5F7D28001BB1B8 /* ViewController.swift in Sources */,
+				D5EA0E7E2A6090C3002E41E7 /* LaunchScreenController.swift in Sources */,
 				D54EBA282A5F7D28001BB1B8 /* AppDelegate.swift in Sources */,
 				D54EBA2A2A5F7D28001BB1B8 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,21 +325,29 @@
 				DEVELOPMENT_TEAM = 9XXZS838LN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniteGuide/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Unite Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hadenolfers.UniteGuide;
+				MARKETING_VERSION = 4.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "Unite-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,21 +361,29 @@
 				DEVELOPMENT_TEAM = 9XXZS838LN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniteGuide/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Unite Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hadenolfers.UniteGuide;
+				MARKETING_VERSION = 4.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "Unite-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +409,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D54EBA3F2A5F7EB1001BB1B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D54EBA402A5F7EB1001BB1B8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D54EBA3F2A5F7EB1001BB1B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D54EBA422A5F7EB1001BB1B8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D54EBA3F2A5F7EB1001BB1B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D54EBA1C2A5F7D28001BB1B8 /* Project object */;
 }
